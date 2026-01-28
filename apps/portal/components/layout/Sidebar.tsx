@@ -16,6 +16,8 @@ import {
   Settings,
   LogOut,
   ChevronDown,
+  DollarSign,
+  HeadphonesIcon,
 } from 'lucide-react';
 
 interface NavItem {
@@ -35,6 +37,8 @@ const navItems: NavItem[] = [
   { label: 'Drivers', href: '/drivers', icon: UserCircle },
   { label: 'Vehicles', href: '/vehicles', icon: Car },
   { label: 'Agencies', href: '/agencies', icon: Building2, roles: ['admin'] },
+  { label: 'Pricing', href: '/pricing', icon: DollarSign, roles: ['admin'] },
+  { label: 'Support', href: '/support', icon: HeadphonesIcon },
   { label: 'Payments', href: '/payments', icon: CreditCard },
   { label: 'Settings', href: '/settings', icon: Settings },
 ];
